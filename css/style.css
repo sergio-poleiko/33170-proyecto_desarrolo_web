@@ -1,0 +1,460 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 27%;
+}
+nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "MetaPro","Trebuchet MS",Arial,sans-serif;
+    font-size: 10px;
+    text-align:center;  
+    letter-spacing:5px;
+    word-spacing: 1vh;
+    color: rgb(0, 0, 0);
+    text-transform:none;
+    text-decoration: none;
+    height: 60%
+}
+
+
+ul li{
+    height: 45%;
+    list-style-type: none;
+
+}
+
+a{
+    text-decoration: none;
+    font-size: 120%;
+}
+
+
+
+p{
+    font-family: "MetaPro","Trebuchet MS",Arial,sans-serif;
+    font-style:normal;
+    font-weight:bolder;
+    font-size: 9px;
+    text-align:center;
+    line-height: 8px;
+    letter-spacing:4px;
+    word-spacing: 1px;
+    color: rgb(139, 142, 148);
+    text-transform: none;
+    background-color: rgba(225, 231, 231, 0.39);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+section{
+    height: 60%;
+    margin-top: 2px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 20%;
+}
+.main1{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 61%;
+}
+
+
+.seccion1{
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+
+.box-marcas{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+h1{
+    font-family: "MetaPro","Trebuchet MS",Arial,sans-serif;
+    font-style:normal;
+    font-size: 3vh;
+    text-align:center;
+    letter-spacing:3px;
+    word-spacing: 2px;
+    color: rgb(115, 114, 122);
+    text-transform:none;
+    margin-top: 3px;
+    margin-bottom: 3px;
+
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    font-family: "MetaPro","Trebuchet MS",Arial,sans-serif;
+    font-style:normal;
+    font-size: 2vh;
+    text-align:center;
+    letter-spacing:2px; 
+    word-spacing: 1vh;
+    color: rgb(115, 114, 122);
+    text-transform:none;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.ultimotitulo{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.boxlogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logo{
+    height: 13vh;
+    
+}
+
+img{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3px 3px 3px 3px;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 32%;
+    margin-top: 3px;
+}
+
+.videos{
+
+    padding: 20px 20px 20px 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.categoriasimg1{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    height: 50px;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.categoriasimg1:hover{
+    transform: scale(1.25);
+}
+
+.categoriasimg2{
+    height: 20vh;
+    
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.categoriasimg2:hover{
+    transform: scale(1.5);
+}
+.marcas{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    height: 80px;
+    width: 80px;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.marcas:hover{
+    transform: scale(1.5);
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    height: 10%;
+    background-color: rgb(168, 167, 167);
+}
+
+.imgbig{
+    height: 50%;
+    width: 50%;
+}
+
+.boxicons{
+    margin-top: 5px;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+.imgicons{
+    height: 20px;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.imgicons:hover{
+    transform: scale(2);
+}
+
+.catego{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 75px 75px;
+    
+}
+
+.catego1{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 75px 75px;
+
+}
+.imgofertas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section2{
+    height: 250vh;
+}
+
+.section3{
+    height: 63%;
+}
+.section4{
+    height: 63%;
+}
+
+.card-img-top{
+    height: 30vh;
+    
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-text{
+    font-size: 1.5vh;
+}
+
+
+@media (min-width: 500px){
+
+}
+
+
+@media (min-width:768px){
+
+}
+
+@media (min-width:1024px){
+    nav ul{
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px; 
+}
+nav{
+    height: 10vh;
+
+}
+ul{
+    margin-top: 1vh;
+    height: 20vh;
+}
+ul li{
+    padding: 20px 20px 20px 50px;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    font-size: 3vh;
+
+}
+.boxlogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end
+}
+.logo{
+    height: 17vh;
+    
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 35%;
+}
+.main1{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 85%;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40%;
+    margin-top: 3px;
+}
+.section2{
+    height: 270vh;
+    display: flex;
+    flex-direction: column;
+}
+.section4{
+    height: 220%;
+}
+p{
+    font-size: 25px;
+    text-align:center;
+    line-height: 28px;
+    letter-spacing:8px;
+    word-spacing: 2px;
+    color: rgb(139, 142, 148);
+    text-transform: none;
+    background-color: rgba(225, 231, 231, 0.39);
+    margin-bottom: 4%;
+    margin-top: 4%;
+}
+h1{
+    font-size: 4vh;
+    text-align:center;
+    letter-spacing:3px;
+    word-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+h2{
+    display: flex;
+    justify-content: center;
+    font-family: "MetaPro","Trebuchet MS",Arial,sans-serif;
+    font-style:normal;
+    font-size: 4vh;
+    text-align:center;
+    letter-spacing:2px; 
+    word-spacing: 1vh;
+    color: rgb(115, 114, 122);
+    text-transform:none;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+.imgofertas{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 50% 50% ;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+}
+.box-marcas{
+    height: 60%;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+
+}
+.marcas{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    height: 110%;
+    width: 40%;
+}
+.categoriasimg2{
+    height: 70%;
+    width: 50%;
+}
+.imgicons{
+    height: 130%;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1vh;
+    height: 30%;
+}
+.categoriasimg1{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    height: 80%;
+}
+.catego{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 33% 33% 33%;
+    height: 800px;
+    
+}
+.catego1{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
+
+}
+
+
+}
