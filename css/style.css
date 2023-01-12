@@ -52,9 +52,9 @@ p{
     font-family: "MetaPro","Trebuchet MS",Arial,sans-serif;
     font-style:normal;
     font-weight:bolder;
-    font-size: 9px;
+    font-size: 15px;
     text-align:center;
-    line-height: 8px;
+    line-height: 15px;
     letter-spacing:4px;
     word-spacing: 1px;
     color: rgb(139, 142, 148);
@@ -74,7 +74,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: start;
-    height: 20%;
+    height: 28%;
 }
 .main1{
     margin-bottom: 20px;
@@ -181,14 +181,14 @@ article{
 }
 
 .categoriasimg2{
-    height: 20vh;
+    height: 15vh;
     
     transition-property: all;
     transition-duration: 1s;
 }
 
 .categoriasimg2:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 .marcas{
     margin-top: 2px;
@@ -260,7 +260,7 @@ footer{
 }
 
 .section2{
-    height: 250vh;
+    height: 210vh;
 }
 
 .section3{
@@ -287,11 +287,153 @@ footer{
 
 
 @media (min-width: 500px){
+    nav ul{
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px; 
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        height: 18%;
+    }
 
 }
 
 
 @media (min-width:768px){
+    nav ul{
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px; 
+}
+nav{
+    height: 20vh;
+
+}
+ul{
+    margin-top: 1vh;
+    height: 25vh;
+}
+ul li{
+    padding: 20px 20px 20px 50px;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    font-size: 1.1vh;
+
+}
+
+p{
+    font-size: 27px;
+    text-align:center;
+    line-height: 22px;
+    letter-spacing:4px;
+    word-spacing: 1px;
+    color: rgb(139, 142, 148);
+    text-transform: none;
+    background-color: rgba(225, 231, 231, 0.39);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.imgicons{
+    height: 220%;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1vh;
+    height: 20%;
+}
+.boxicons{
+    margin-top: 5px;
+    height: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+.imgicons{
+    transition-property: all;
+    transition-duration: 0.6s;
+}
+
+.imgicons:hover{
+    transform: scale(1.3);
+}
+.card-img-top{
+    height: 30vh;
+    
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30vh;
+}
+
+.card-text{
+    height: 6vh;
+    font-size: 1.5vh;
+}
+
+.card-body{
+    height: 80%;
+    width: 100%;
+}
+.card-img-top{
+    height: 60%;
+}
+.box-marcas{
+    height: 120%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.marcas{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    height: 160px;
+    width: 160px;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.seccion1{
+    height: 110%;
+}
+.section2{
+    height: 200vh;
+}
+.categoriasimg1{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    height: 110px;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.catego{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 33% 33% 33%;
+    
+}
+
 
 }
 
@@ -351,6 +493,12 @@ article{
     height: 40%;
     margin-top: 3px;
 }
+
+.seccion1{
+    margin-top: 10vh;
+    
+}
+
 .section2{
     height: 270vh;
     display: flex;
@@ -404,7 +552,8 @@ h2{
     grid-row-gap: 15px;
 }
 .box-marcas{
-    height: 60%;
+    margin-top: 10vh;
+    height: 70%;
     display: grid;
     align-items: center;
     justify-items: center;
@@ -418,8 +567,14 @@ h2{
     margin-left: 2px;
     margin-right: 2px;
     height: 110%;
-    width: 40%;
+    width: 60%;
 }
+
+.marcas:hover{
+    transform: scale(1.2);
+}
+
+
 .categoriasimg2{
     height: 70%;
     width: 50%;
@@ -456,5 +611,34 @@ footer{
 
 }
 
+.card-img-top{
+    height: 30vh;
+    
+}
 
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40vh;
+    transition-property: all;
+    transition-duration: 0.6s;
+}
+
+.card-text{
+    height: 12vh;
+    font-size: 1.7vh;
+}
+
+.card-body{
+    height: 80%;
+    width: 100%;
+}
+.card-img-top{
+    height: 60%;
+}
+
+.card:hover{
+    transform: scale(1.4);
+}
 }
