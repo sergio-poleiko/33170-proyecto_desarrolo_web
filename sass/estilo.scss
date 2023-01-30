@@ -1,50 +1,5 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
-    height: 100vh;
-}
-header{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 27%;
-}
-nav ul{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-nav{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-family: "MetaPro","Trebuchet MS",Arial,sans-serif;
-    font-size: 10px;
-    text-align:center;  
-    letter-spacing:5px;
-    word-spacing: 1vh;
-    color: rgb(0, 0, 0);
-    text-transform:none;
-    text-decoration: none;
-    height: 60%
-}
-
-
-ul li{
-    height: 45%;
-    list-style-type: none;
-
-}
-
-a{
-    text-decoration: none;
-    font-size: 120%;
-}
+@import "generales";
+@import "indice";
 
 
 
@@ -287,14 +242,33 @@ footer{
 
 
 @media (min-width: 500px){
-    nav ul{
-        height: 20vh;
+    header {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
-        align-items: center;
-        padding-bottom: 20px; 
+        height: 20%;
+        nav{
+            height: 18vh;
+            ul{
+                height: 8vh;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding-bottom: 20px;
+                margin-top: 1vh;
+                height: 25vh; 
+                li{
+                    padding: 15px 15px 15px 15px;
+                    list-style-type: none;
+                }
+                    a{
+                        text-decoration: none;
+                        font-size: 1.1vh;
+            }
+        }
     }
+}
     main{
         display: flex;
         flex-direction: column;
@@ -306,30 +280,33 @@ footer{
 
 
 @media (min-width:768px){
-    nav ul{
-    height: 10vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 20px; 
-}
-nav{
-    height: 20vh;
-
-}
-ul{
-    margin-top: 1vh;
-    height: 25vh;
-}
-ul li{
-    padding: 20px 20px 20px 50px;
-    list-style-type: none;
-}
-a{
-    text-decoration: none;
-    font-size: 1.1vh;
-
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 27%;
+        nav{
+            height: 20vh;
+            ul{
+                height: 10vh;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding-bottom: 20px;
+                margin-top: 1vh;
+                height: 25vh; 
+                li{
+                    padding: 20px 20px 20px 50px;
+                    list-style-type: none;
+                }
+                    a{
+                        text-decoration: none;
+                        font-size: 1.1vh;
+            }
+        }
+    }
 }
 
 p{

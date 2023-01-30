@@ -1,0 +1,39 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 27%;
+
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: "MetaPro","Trebuchet MS",Arial,sans-serif;
+        font-size: 10px;
+        text-align:center;  
+        letter-spacing:5px;
+        word-spacing: 1vh;
+        color: rgb(0, 0, 0);
+        text-transform:none;
+        text-decoration: none;
+        height: 60%;
+
+        ul{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+            li{
+                height: 45%;
+                list-style-type: none;
+
+                a{
+                    text-decoration: none;
+                    font-size: 120%;
+                }
+            }
+        }
+    }
+}
+
