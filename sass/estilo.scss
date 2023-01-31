@@ -168,7 +168,7 @@ footer{
 }
 
 .imgbig{
-    height: 50%;
+    height: 40%;
     width: 50%;
 }
 
@@ -462,7 +462,7 @@ main{
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    height: 85%;
+    height: 110%;
 }
 article{
     display: flex;
@@ -483,7 +483,7 @@ article{
     flex-direction: column;
 }
 .section4{
-    height: 220%;
+    height: 230%;
 }
 p{
     font-size: 25px;
@@ -618,5 +618,13 @@ footer{
 
 .card:hover{
     transform: scale(1.4);
+}
+.imgbig{
+    height: 80%;
+    width: 50%;
+}
+
+.categoriasimg1:hover{
+    transform: scale(1.1);
 }
 }

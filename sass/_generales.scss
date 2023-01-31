@@ -15,5 +15,19 @@ body{
 }
     
 .color1{
-    @include colors (rgb(152, 161, 194))
+    @include colors (rgb(212, 231, 231))
 }
+
+@mixin estilo-texto ($background-color,$margin-top){
+    background-color: $background-color;
+    margin-top: $margin-top;
+}
+
+.texto{
+    @include estilo-texto(rgb(212, 231, 231), 10px)
+}
+
+.texto1{
+    @include estilo-texto(rgb(212, 231, 231), 20px)
+}
+

@@ -8,7 +8,17 @@ body {
 }
 
 .color1 {
-  background-color: rgb(152, 161, 194);
+  background-color: rgb(212, 231, 231);
+}
+
+.texto {
+  background-color: rgb(212, 231, 231);
+  margin-top: 10px;
+}
+
+.texto1 {
+  background-color: rgb(212, 231, 231);
+  margin-top: 20px;
 }
 
 header {
@@ -205,7 +215,7 @@ footer {
 }
 
 .imgbig {
-  height: 50%;
+  height: 40%;
   width: 50%;
 }
 
@@ -473,7 +483,7 @@ footer {
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    height: 85%;
+    height: 110%;
   }
   article {
     display: flex;
@@ -491,7 +501,7 @@ footer {
     flex-direction: column;
   }
   .section4 {
-    height: 220%;
+    height: 230%;
   }
   p {
     font-size: 25px;
@@ -613,5 +623,12 @@ footer {
   }
   .card:hover {
     transform: scale(1.4);
+  }
+  .imgbig {
+    height: 80%;
+    width: 50%;
+  }
+  .categoriasimg1:hover {
+    transform: scale(1.1);
   }
 }/*# sourceMappingURL=estilo.css.map */
