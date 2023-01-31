@@ -29,7 +29,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: start;
-    height: 28%;
+    height: 35%;
 }
 .main1{
     margin-bottom: 20px;
@@ -42,6 +42,7 @@ main{
 
 
 .seccion1{
+    height: 50%;
     margin-bottom: 1px;
     margin-top: 1px;
 }
@@ -390,6 +391,9 @@ footer{
     transition-duration: 0.5s;
 }
 
+main{
+    height: 25%;
+}
 .seccion1{
     height: 110%;
 }
@@ -454,7 +458,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: start;
-    height: 35%;
+    height: 45%;
 }
 .main1{
     margin-bottom: 20px;
@@ -498,7 +502,7 @@ p{
     margin-top: 4%;
 }
 h1{
-    font-size: 4vh;
+    font-size: 5vh;
     text-align:center;
     letter-spacing:3px;
     word-spacing: 2px;

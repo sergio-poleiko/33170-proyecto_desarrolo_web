@@ -8,17 +8,19 @@ body {
 }
 
 .color1 {
-  background-color: rgb(212, 231, 231);
+  background-color: rgb(169, 170, 180);
 }
 
 .texto {
   background-color: rgb(212, 231, 231);
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 5px;
 }
 
 .texto1 {
   background-color: rgb(212, 231, 231);
   margin-top: 20px;
+  margin-bottom: 5px;
 }
 
 header {
@@ -81,7 +83,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: start;
-  height: 28%;
+  height: 35%;
 }
 
 .main1 {
@@ -94,6 +96,7 @@ main {
 }
 
 .seccion1 {
+  height: 50%;
   margin-bottom: 1px;
   margin-top: 1px;
 }
@@ -418,6 +421,9 @@ footer {
     transition-property: all;
     transition-duration: 0.5s;
   }
+  main {
+    height: 25%;
+  }
   .seccion1 {
     height: 110%;
   }
@@ -475,7 +481,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    height: 35%;
+    height: 45%;
   }
   .main1 {
     margin-bottom: 20px;
@@ -516,7 +522,7 @@ footer {
     margin-top: 4%;
   }
   h1 {
-    font-size: 4vh;
+    font-size: 5vh;
     text-align: center;
     letter-spacing: 3px;
     word-spacing: 2px;
