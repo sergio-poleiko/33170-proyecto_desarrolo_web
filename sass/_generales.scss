@@ -7,3 +7,13 @@ body{
     height: 100vh;
 }
 
+
+
+@mixin colors ($background-color){
+    background-color: $background-color ;
+    
+}
+    
+.color1{
+    @include colors (rgb(152, 161, 194))
+}
