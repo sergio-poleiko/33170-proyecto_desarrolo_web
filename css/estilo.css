@@ -28,6 +28,8 @@ header {
   flex-direction: column;
   justify-content: center;
   height: 27%;
+  margin-top: 4vh;
+  margin-bottom: 5vh;
 }
 header nav {
   display: flex;
@@ -42,6 +44,14 @@ header nav {
   text-transform: none;
   text-decoration: none;
   height: 60%;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+@media (min-width: 768px) {
+  header nav {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
 }
 header nav ul {
   display: flex;
@@ -52,10 +62,21 @@ header nav ul {
 header nav ul li {
   height: 45%;
   list-style-type: none;
+  padding: 4px 4px 4px 4px;
+}
+@media (min-width: 768px) {
+  header nav ul li {
+    padding: 10px 20px 10px 20px;
+  }
 }
 header nav ul li a {
   text-decoration: none;
-  font-size: 120%;
+  font-size: 160%;
+}
+@media (min-width: 768px) {
+  header nav ul li a {
+    font-size: 220%;
+  }
 }
 
 p {
@@ -331,7 +352,8 @@ footer {
     height: 27%;
   }
   header nav {
-    height: 20vh;
+    height: 4vh;
+    width: 99%;
   }
   header nav ul {
     height: 10vh;
@@ -344,12 +366,10 @@ footer {
     height: 25vh;
   }
   header nav ul li {
-    padding: 20px 20px 20px 50px;
     list-style-type: none;
   }
   header nav ul a {
     text-decoration: none;
-    font-size: 1.1vh;
   }
   p {
     font-size: 27px;
@@ -373,7 +393,7 @@ footer {
     height: 20%;
   }
   .boxicons {
-    margin-top: 5px;
+    margin-top: 3vh;
     height: 20%;
     display: flex;
     justify-content: space-evenly;
@@ -444,6 +464,18 @@ footer {
     grid-template-columns: 50% 50%;
     grid-template-rows: 33% 33% 33%;
   }
+  .ultimotitulo {
+    font-size: 3vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+  }
+  .videos {
+    height: 20vh;
+    width: 35vh;
+    padding: 2vh 2vh 2vh 2vh;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
 }
 @media (min-width: 1024px) {
   nav ul {
@@ -495,8 +527,15 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 40%;
+    height: 60%;
     margin-top: 3px;
+  }
+  .videos {
+    height: 40vh;
+    width: 75vh;
+    padding: 20px 20px 20px 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
   .seccion1 {
     margin-top: 10vh;
@@ -636,5 +675,9 @@ footer {
   }
   .categoriasimg1:hover {
     transform: scale(1.1);
+  }
+  .ultimotitulo {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
   }
 }/*# sourceMappingURL=estilo.css.map */
