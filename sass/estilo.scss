@@ -29,8 +29,9 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: start;
-    height: 35%;
+    height: 38%;
 }
+
 .main1{
     margin-bottom: 20px;
     display: flex;
@@ -42,9 +43,9 @@ main{
 
 
 .seccion1{
-    height: 50%;
-    margin-bottom: 1px;
-    margin-top: 1px;
+    height: 56%;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
 }
 
 .box-marcas{
@@ -64,8 +65,8 @@ h1{
     word-spacing: 2px;
     color: rgb(115, 114, 122);
     text-transform:none;
-    margin-top: 3px;
-    margin-bottom: 3px;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
 
 }
 
@@ -151,8 +152,8 @@ article{
     margin-bottom: 2px;
     margin-left: 2px;
     margin-right: 2px;
-    height: 80px;
-    width: 80px;
+    height: 53%;
+    width: 27%;
     transition-property: all;
     transition-duration: 0.5s;
 }
@@ -243,43 +244,6 @@ footer{
 
 
 
-@media (min-width: 500px){
-    header {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        height: 20%;
-        nav{
-            height: 18vh;
-            ul{
-                height: 8vh;
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                align-items: center;
-                padding-bottom: 20px;
-                margin-top: 1vh;
-                height: 25vh; 
-                li{
-                    padding: 15px 15px 15px 15px;
-                    list-style-type: none;
-                }
-                    a{
-                        text-decoration: none;
-                        font-size: 1.1vh;
-            }
-        }
-    }
-}
-    main{
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        height: 18%;
-    }
-
-}
-
 
 @media (min-width:768px){
     header {
@@ -290,14 +254,14 @@ footer{
         height: 27%;
         nav{
             height: 4vh;
-            width: 99%;
+            width: 100%;
             ul{
                 height: 10vh;
                 display: flex;
                 flex-direction: row;
-                justify-content: center;
+                justify-content: space-around;
                 align-items: center;
-                padding-bottom: 20px;
+                padding-bottom: 10px;
                 margin-top: 1vh;
                 height: 25vh; 
                 li{
@@ -375,7 +339,7 @@ footer{
     height: 60%;
 }
 .box-marcas{
-    height: 120%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -385,16 +349,19 @@ footer{
     margin-bottom: 1vh;
     margin-left: 1vh;
     margin-right: 1vh;
-    height: 160px;
-    width: 160px;
+    height: 35%;
+    width: 36%;
     transition-property: all;
     transition-duration: 0.5s;
 }
 
 main{
-    height: 25%;
+    height: 28%;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
 }
 .seccion1{
+    margin-top: 3vh;
     height: 110%;
 }
 .section2{
@@ -432,14 +399,7 @@ main{
 }
 
 @media (min-width:1024px){
-    nav ul{
-    height: 10vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 20px; 
-}
+    
 nav{
     height: 10vh;
 
@@ -567,8 +527,8 @@ h2{
     margin-bottom: 2px;
     margin-left: 2px;
     margin-right: 2px;
-    height: 110%;
-    width: 60%;
+    height: 73%;
+    width: 70%;
 }
 
 .marcas:hover{

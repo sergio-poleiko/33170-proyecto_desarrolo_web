@@ -23,7 +23,7 @@ header {
         margin-bottom: 2vh;
         @media (min-width:768px){
             margin-top: 5vh;
-        margin-bottom: 5vh;
+            margin-bottom: 5vh;
         }
 
         ul{
@@ -31,13 +31,19 @@ header {
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            background-color: rgb(168, 167, 167);
+            @media (min-width:1024px){
+                background-color: white;
+                justify-content: space-around;
+            }
+            
             
             li{
                 height: 45%;
                 list-style-type: none;
                 padding: 4px 4px 4px 4px;
                 @media (min-width:768px){ 
-                padding: 10px 20px 10px 20px;
+                padding: 10px 5px 10px 10px;
                 }
                 a{
                     text-decoration: none;

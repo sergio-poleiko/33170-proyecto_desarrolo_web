@@ -25,10 +25,10 @@ body{
 }
 
 .texto{
-    @include estilo-texto(rgb(212, 231, 231), 20px, 5px)
+    @include estilo-texto(rgb(212, 231, 231), 2vh, 1vh)
 }
 
 .texto1{
-    @include estilo-texto(rgb(212, 231, 231), 20px, 5px)
+    @include estilo-texto(rgb(212, 231, 231), 2vh, 1vh)
 }
 
